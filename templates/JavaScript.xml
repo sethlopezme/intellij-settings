@@ -1,0 +1,10 @@
+<templateSet group="JavaScript">
+  <template name="fn" value="function $NAME$($VARS$) {$END$}" description="Inserts function () {}" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VARS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="tera" type="HTML" />
+      <mapping pattern=".npmrc" type="Ini" />
+      <mapping pattern=".editorconfig" type="Ini" />
+      <mapping pattern=".sequelizerc" type="JavaScript" />
+      <removed_mapping pattern=".gitmodules" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
