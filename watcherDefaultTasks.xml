@@ -41,7 +41,7 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="$FilePath$ --write-mode=overwrite" />
+      <option name="arguments" value="run nightly rustfmt $FilePath$ --write-mode=overwrite" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
@@ -53,11 +53,11 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$USER_HOME$/.cargo/bin/rustfmt" />
+      <option name="program" value="$USER_HOME$/.cargo/bin/rustup" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="" />
+      <option name="workingDir" value="$Projectpath$" />
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
