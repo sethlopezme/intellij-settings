@@ -73,7 +73,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$USER_HOME$/personal/subreddit-allhail/bot/node_modules/.bin/eslint" />
+      <option name="program" value="$USER_HOME$/personal/smart-home/node_modules/eslint/bin/eslint.js" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Current File" />
       <option name="trackOnlyRoot" value="false" />
